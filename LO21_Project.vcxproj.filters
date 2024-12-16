@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>GUI Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VBuilding.cpp">
+      <Filter>GUI Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VGameElements.cpp">
+      <Filter>GUI Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Game Logic Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game Logic Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SideBoard.cpp">
+      <Filter>Game Logic Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Deck.cpp">
+      <Filter>Game Logic Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Card.h">
+      <Filter>Game Logic Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.h">
+      <Filter>Game Logic Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>Game Logic Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogicHeader.h">
+      <Filter>Game Logic Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game Logic Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SideBoard.h">
+      <Filter>Game Logic Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QtHeader.h">
+      <Filter>GUI Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="GUI.h">
+      <Filter>GUI Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="VBuilding.h">
+      <Filter>GUI Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="VGameElements.h">
+      <Filter>GUI Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Qt Form Files">
+      <UniqueIdentifier>{42e9f809-fdbc-4621-994b-64a79ca3021d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt Resource Files">
+      <UniqueIdentifier>{98b8513e-ed13-47af-8c65-35a0e9278d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main Source File">
+      <UniqueIdentifier>{706a7de2-5584-4742-86df-640c6bc0c11c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Logic Header Files">
+      <UniqueIdentifier>{16c7b855-0e1f-445f-af09-19d53694b55f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI Header Files">
+      <UniqueIdentifier>{76765ef3-cc64-427f-9bac-0ac20b21043c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI Source Files">
+      <UniqueIdentifier>{d8d280cf-117f-4855-b2bf-7cad30418b46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Logic Source Files">
+      <UniqueIdentifier>{b33ff653-f906-438c-bac6-c172c37ec438}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="LO21_Project.qrc">
+      <Filter>Qt Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="LO21_Project.ui">
+      <Filter>Qt Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>
